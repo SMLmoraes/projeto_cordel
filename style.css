@@ -1,0 +1,78 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: darkgray;
+    height: 100%;
+}
+p{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+padding-top: 50px;
+font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(166, 255, 255);
+    font-size: 1.1em;
+}
+main{
+    background-color: white;
+}
+
+section{
+    padding: 10% 0 10% 0;
+    line-height: 2em;
+    font-family: 'Satisfy', cursive;
+    font-size: 5vh;
+}
+.normal{
+    background-color: rgb(255, 255, 255);
+}
+
+.img{
+    background-color: rgb(131, 131, 131);
+    color: white;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.404);
+    background-attachment: fixed;
+}
+.img > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 5px;
+}
+
+#img01{
+    background-image: url('imagens/background001.jpg');
+   
+}
+#img02{
+    background-image: url('imagens/background002.jpg');
+}
+footer{     
+    background-color: black;
+   text-align: center;
+   color: white;
+   padding-bottom: 5px;
+}
